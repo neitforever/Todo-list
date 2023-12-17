@@ -9,6 +9,6 @@ The application has sorting and filtering
 - Css
 
 <p align="center">
-  <img alt="VS Code in action" src="./public/todolist.gif">
+  <img alt="VS Code in action" src="./public/todolist.jpg">
 </p>
 
