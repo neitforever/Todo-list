@@ -1,0 +1,130 @@
+body {
+  background-color: #ffc373;
+}
+.list-count {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 50%;
+  background-color: #ffc373;
+  margin-top: 5%;
+  padding-bottom: 1%;
+  color: #61d7a4;
+}
+.list-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #ffc373;
+}
+
+.list-input {
+  flex: 80%;
+  padding: 5px;
+  outline: none;
+  border: 2px solid;
+  border-color: #7373d9;
+}
+
+.list-button {
+  flex: 20%;
+  font-size: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #7373d9;
+  padding: 9.5px 1px 9px 1px;
+  color: #61d7a4;
+}
+.list-container {
+  background-color: #ffc373;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.list-item {
+  margin-top: 2%;
+  border: 2px solid #7373d9;
+  position: relative;
+}
+.list-component {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  justify-content: flex-start;
+}
+.list-checkbox {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 5%;
+}
+.list-name {
+  background-color: #ffc373;
+  color: #66a3d2;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 79%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.del-button {
+  display: none;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  background-color: red;
+  color: white;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: 2px solid #7373d9;
+  width: 12%;
+}
+.list-item:hover .del-button {
+  display: flex;
+}
+
+.list-created-at {
+  font-size: 10px;
+  color: #61d7a4;
+}
+.list-item:hover .list-created-at {
+  display: none;
+}
+
+.sort-buttons button {
+  background-color: #7373d9;
+  color: #61d7a4;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.sort-buttons button.active {
+  background-color: #ffdc72;
+  color: #7373d9;
+  font-weight: bold;
+}
+.incompleteFilter {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  color: #61d7a4;
+}
+.sort-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 50%;
+}
